@@ -1,8 +1,10 @@
-# 📚 온라인 서점 통합 주문·출고 시스템
+# 📚 MFC를 활용한 온라인 서점 통합 주문·출고 시스템
 
 > 웹 주문 → DB 재고 검증 → 실물 자동 출고까지 하나로 연결한 풀스택 + 하드웨어 프로젝트
 > Flask · MySQL · MFC · C# WinForms · Raspberry Pi
 
+
+시연 영상 : https://youtu.be/Ca0WswE9EAg
 ---
 
 ## 프로젝트 소개
