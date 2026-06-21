@@ -13,7 +13,16 @@
 
 전체 흐름은 — Flask 고객 홈페이지에서 도서를 검색·주문 → DB 재고 실시간 검증 → MFC 관리자가 출고 승인 → C# WinForms 하드웨어 제어 시스템이 컨베이어·서보를 구동해 실물 도서를 출고합니다. 저는 그중 **C# 하드웨어 제어 시스템 전체**와 **Flask 고객 홈페이지 전체 UI·기능**, 그리고 **XML/CSV 기반 설정·로그 관리**를 담당했고, 하드웨어 본체 제작에도 협업으로 참여했습니다.
 
-[사진: 전체 시스템 — 고객 홈페이지 + 하드웨어 제어 화면 + 실물 출고 장치]
+<img width="843" height="427" alt="image" src="https://github.com/user-attachments/assets/a63580ed-686c-4459-9792-d80716b9b956" />
+<고객 Flask 홈페이지>
+
+
+<img width="1014" height="582" alt="image" src="https://github.com/user-attachments/assets/e915749f-5aef-4515-a392-16b50490c174" />
+<하드웨어 제어 프로그램>
+
+
+<img width="674" height="1165" alt="image" src="https://github.com/user-attachments/assets/2d39136a-ea63-4990-a680-be92be565eec" />
+<하드웨어 물류 창고>
 
 ---
 
@@ -68,9 +77,9 @@
 | 모터 상태 모니터링 | 컨베이어·서보의 현재 상태(정지/구동/속도) 실시간 표시 |
 | **비상정지** | 단일 버튼으로 컨베이어·서보·전체 동작을 즉시 정지하는 안전 제어 |
 
-[사진: C# 하드웨어 제어 메인 화면 — 영상 + 컨베이어 속도 + 로그 + 비상정지]
 
-[사진: 비상정지 누른 직후 — 모든 장치 정지 + 로그에 기록된 모습]
+
+
 
 ---
 
@@ -92,9 +101,11 @@
 
 도서 상세 페이지에서 책 표지에 마우스를 올리면 입체적으로 반응하도록 **3D 호버 효과**를 적용했습니다. CSS `transform: perspective` + `rotateX/rotateY`를 마우스 좌표에 따라 동적으로 계산해, 책 표지가 마우스 위치를 따라 미세하게 기울어지며 입체감을 만듭니다. 정적 이미지로 끝낼 수 있는 부분에 작은 디테일을 더해 UI 완성도를 끌어올린 부분입니다.
 
-[사진: Flask 고객 홈페이지 메인]
+<img width="843" height="427" alt="image" src="https://github.com/user-attachments/assets/5b6a1c66-8490-4897-a174-29fa7ecf17cf" />
+<고객 홈페이지 메인>
 
-[사진: 도서 상세 페이지 — 3D 호버 효과가 적용된 책 표지]
+<img width="552" height="350" alt="image" src="https://github.com/user-attachments/assets/9ca9af5e-5bbb-49b0-97d1-0c2a7a6ddc26" />
+<표지 3D 호버 효과>
 
 ---
 
@@ -128,9 +139,18 @@
 
 이 구조로 어떤 시점에 어느 장치가 어떻게 동작했는지 시각과 함께 추적 가능합니다.
 
-[사진: config.xml 값 변경 화면 + 실제 동작이 변하는 모습]
 
-[사진: CSV 로그 파일이 시각별로 누적 기록되는 화면]
+<img width="985" height="671" alt="image" src="https://github.com/user-attachments/assets/38801312-7f8a-48b4-9e5b-f0d507767709" />
+<재고 슬롯의 간격, 딜레이, 컨베이어벨트 속도에 대한 XML>
+
+
+
+<img width="895" height="677" alt="image" src="https://github.com/user-attachments/assets/9b50abf6-69b5-4b0e-82d4-f2d08aa30776" />
+<컨베이어벨트 및 서보 모터 CSV>
+
+
+<img width="895" height="671" alt="image" src="https://github.com/user-attachments/assets/3887883b-dc35-4a43-9356-9117f4840a10" />
+<카메라 CSV>
 
 ---
 
@@ -138,7 +158,8 @@
 
 소프트웨어뿐 아니라 실물 하드웨어 본체 제작에도 참여했습니다. 특히 **컨베이어 옆벽 구조물**은 제가 직접 설계·제작했습니다 (아래 Problem Solving 03 참고).
 
-[사진: 본인이 직접 제작한 컨베이어 옆벽 구조물]
+<img width="202" height="310" alt="image" src="https://github.com/user-attachments/assets/52b61409-f092-4e8f-9f09-459148356139" />
+<컨베이어 오낙하 방지 가이드슈트, 창고, 로터리 물류를 올려주는 솔 맞춤 제작>
 
 ---
 
