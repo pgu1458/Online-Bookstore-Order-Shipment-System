@@ -19,10 +19,12 @@
 
 
 <img width="1014" height="582" alt="image" src="https://github.com/user-attachments/assets/e915749f-5aef-4515-a392-16b50490c174" />
+
 <하드웨어 제어 프로그램>
 
 
 <img width="674" height="1165" alt="image" src="https://github.com/user-attachments/assets/2d39136a-ea63-4990-a680-be92be565eec" />
+
 <하드웨어 물류 창고>
 
 ---
@@ -103,9 +105,11 @@
 도서 상세 페이지에서 책 표지에 마우스를 올리면 입체적으로 반응하도록 **3D 호버 효과**를 적용했습니다. CSS `transform: perspective` + `rotateX/rotateY`를 마우스 좌표에 따라 동적으로 계산해, 책 표지가 마우스 위치를 따라 미세하게 기울어지며 입체감을 만듭니다. 정적 이미지로 끝낼 수 있는 부분에 작은 디테일을 더해 UI 완성도를 끌어올린 부분입니다.
 
 <img width="843" height="427" alt="image" src="https://github.com/user-attachments/assets/5b6a1c66-8490-4897-a174-29fa7ecf17cf" />
+
 <고객 홈페이지 메인>
 
 <img width="552" height="350" alt="image" src="https://github.com/user-attachments/assets/9ca9af5e-5bbb-49b0-97d1-0c2a7a6ddc26" />
+
 <표지 3D 호버 효과>
 
 ---
@@ -142,15 +146,18 @@
 
 
 <img width="985" height="671" alt="image" src="https://github.com/user-attachments/assets/38801312-7f8a-48b4-9e5b-f0d507767709" />
+
 <재고 슬롯의 간격, 딜레이, 컨베이어벨트 속도에 대한 XML>
 
 
 
 <img width="895" height="677" alt="image" src="https://github.com/user-attachments/assets/9b50abf6-69b5-4b0e-82d4-f2d08aa30776" />
+
 <컨베이어벨트 및 서보 모터 CSV>
 
 
 <img width="895" height="671" alt="image" src="https://github.com/user-attachments/assets/3887883b-dc35-4a43-9356-9117f4840a10" />
+
 <카메라 CSV>
 
 ---
@@ -192,7 +199,6 @@
 | 해결 | 낙하 경로를 분석하여 컨베이어 옆면 벽 구조물을 직접 설계·제작해 안착 범위를 수정 |
 | 결과 | 상자 이탈 없이 안정적인 출고 동작 구현 |
 
-[사진: 옆벽 구조물 적용 전(상자 이탈) vs 적용 후(안정 안착) 비교]
 
 ---
 
