@@ -167,6 +167,7 @@
 소프트웨어뿐 아니라 실물 하드웨어 본체 제작에도 참여했습니다. 특히 **컨베이어 옆벽 구조물**은 제가 직접 설계·제작했습니다 (아래 Problem Solving 03 참고).
 
 <img width="202" height="310" alt="image" src="https://github.com/user-attachments/assets/52b61409-f092-4e8f-9f09-459148356139" />
+
 <컨베이어 오낙하 방지 가이드슈트, 창고, 로터리 물류를 올려주는 솔 맞춤 제작>
 
 ---
