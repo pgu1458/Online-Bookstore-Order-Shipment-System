@@ -14,6 +14,7 @@
 전체 흐름은 — Flask 고객 홈페이지에서 도서를 검색·주문 → DB 재고 실시간 검증 → MFC 관리자가 출고 승인 → C# WinForms 하드웨어 제어 시스템이 컨베이어·서보를 구동해 실물 도서를 출고합니다. 저는 그중 **C# 하드웨어 제어 시스템 전체**와 **Flask 고객 홈페이지 전체 UI·기능**, 그리고 **XML/CSV 기반 설정·로그 관리**를 담당했고, 하드웨어 본체 제작에도 협업으로 참여했습니다.
 
 <img width="843" height="427" alt="image" src="https://github.com/user-attachments/assets/a63580ed-686c-4459-9792-d80716b9b956" />
+
 <고객 Flask 홈페이지>
 
 
